@@ -2,14 +2,18 @@
   "name": "es6-tests",
   "version": "0.1.0",
   "description": "Unit tests to explore new features in ECMAScript 6",
+  "author": "Scott Davis <scott@thirstyhead.com>",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "pretest": "node node_modules/.bin/eslint spec",
     "test": "node index"
   },
-  "author": "Scott Davis <scott@thirstyhead.com>",
+  "engines": {
+    "node": ">= 4.2.0"
+  },
   "license": "ISC",
   "devDependencies": {
+    "eslint": "~2.1.0",
     "jasmine": "~2.4.1",
     "jasmine-spec-reporter": "~2.4.0"
   }
