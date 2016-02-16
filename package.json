@@ -1,0 +1,11 @@
+{
+  "name": "es6-tests",
+  "version": "0.1.0",
+  "description": "Unit tests to explore new features in ECMAScript 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com>",
+  "license": "ISC"
+}
