@@ -34,6 +34,7 @@ describe('an ES6 String', () => {
         expect(test.repeat(5)).toEqual(expected);
     });
 
+    // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings
     it('supports interpolation using backticks (``)', () => {
         let name = 'Bubba';
         let test = `Hello ${name}`;

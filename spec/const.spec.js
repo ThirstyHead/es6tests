@@ -14,9 +14,8 @@ describe('an ES6 const', () => {
         expect(PI).toEqual(PI);
     });
 
+    // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
     it('object CAN be changed once it is initialized', () => {
-        // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
-
         const person = {
             name: 'Bubba'
         };
