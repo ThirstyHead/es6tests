@@ -34,6 +34,24 @@ describe('an ES6 String', () => {
         expect(test.repeat(5)).toEqual(expected);
     });
 
+    it('supports interpolation using backticks (``)', () => {
+        let name = 'Bubba';
+        let test = `Hello ${name}`;
+        let expected = 'Hello Bubba';
+        expect(test).toEqual(expected);
+        expect(`${name.toUpperCase()}`).toEqual('BUBBA');
+    });
+
+    it('can be multiline using backticks (``)', () => {
+        let test = `
+Roses are #ff0000
+Violets are #0000ff`;
+        let expected = '\nRoses are #ff0000\nViolets are #0000ff';
+        expect(test).toEqual(expected);
+    });
+
+
+
 });
 
 

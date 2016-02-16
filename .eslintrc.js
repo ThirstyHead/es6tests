@@ -19,7 +19,8 @@ module.exports = {
         ],
         "quotes": [
             2,
-            "single"
+            "single",
+            "avoid-escape"
         ],
         "semi": [
             2,
