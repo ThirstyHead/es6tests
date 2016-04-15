@@ -5,7 +5,7 @@
   "author": "Scott Davis <scott@thirstyhead.com>",
   "main": "index.js",
   "scripts": {
-    "pretest": "node node_modules/.bin/eslint spec",
+    "pretest": "node_modules/.bin/eslint spec",
     "test": "node index"
   },
   "engines": {
