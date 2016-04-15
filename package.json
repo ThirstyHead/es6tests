@@ -1,6 +1,6 @@
 {
   "name": "es6-tests",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unit tests to explore new features in ECMAScript 6",
   "author": "Scott Davis <scott@thirstyhead.com>",
   "main": "index.js",
